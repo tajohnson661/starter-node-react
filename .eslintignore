@@ -1,0 +1,8 @@
+*/node_modules/*
+coverage/*
+client/build/*
+client/coverage/*
+server/db/migrations/*
+server/models/index.js
+server/db/seeds/*
+

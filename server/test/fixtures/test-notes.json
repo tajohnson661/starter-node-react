@@ -1,0 +1,66 @@
+[
+  {
+    "model": "user",
+    "data": {
+      "firstName": "Bill",
+      "lastName": "Murray",
+      "email": "bill@example.com",
+      "password": "abcd1234"
+    }
+  },
+  {
+    "model": "user",
+    "data": {
+      "firstName": "Jane",
+      "lastName": "Curtin",
+      "email": "jane@example.com",
+      "password": "1234abcd"
+    }
+  },
+  {
+    "model": "tag",
+    "data": {
+      "name": "leisure"
+    }
+  },
+  {
+    "model": "tag",
+    "data": {
+      "name": "books"
+    }
+  },
+  {
+    "model": "tag",
+    "data": {
+      "id": "b216117b-d684-4875-96ff-8c42636e3f4d",
+      "name": "programming"
+    }
+  },
+  {
+    "model": "note",
+    "data": {
+      "id": "e7acdf59-ce62-43cc-87ee-61aa76e786bf",
+      "text": "this is some note text",
+      "user": {
+        "email": "jane@example.com"
+      },
+      "tags": [
+        {
+          "name": "programming"
+        },
+        {
+          "name": "leisure"
+        }
+      ]
+    }
+  },
+  {
+    "model": "note",
+    "data": {
+      "text": "this is another note",
+      "user": {
+        "email": "bill@example.com"
+      }
+    }
+  }
+]

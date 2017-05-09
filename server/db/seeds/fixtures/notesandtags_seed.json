@@ -1,0 +1,63 @@
+[
+  {
+    "model": "tag",
+    "data": {
+      "name": "leisure"
+    }
+  },
+  {
+    "model": "tag",
+    "data": {
+      "name": "books"
+    }
+  },
+  {
+    "model": "tag",
+    "data": {
+      "name": "programming"
+    }
+  },
+  {
+    "model": "note",
+    "data": {
+      "text": "a note created by user that has tags programming and leisure",
+      "user": {
+        "email": "user@example.com"
+      },
+      "tags": [
+        {
+          "name": "programming"
+        },
+        {
+          "name": "leisure"
+        }
+      ]
+    }
+  },
+  {
+    "model": "note",
+    "data": {
+      "text": "a note created by admin that has tags programming and books",
+      "user": {
+        "email": "admin@example.com"
+      },
+      "tags": [
+        {
+          "name": "programming"
+        },
+        {
+          "name": "books"
+        }
+      ]
+    }
+  },
+  {
+    "model": "note",
+    "data": {
+      "text": "another note created by user with no tags",
+      "user": {
+        "email": "user@example.com"
+      }
+    }
+  }
+]

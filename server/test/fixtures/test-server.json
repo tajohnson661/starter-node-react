@@ -1,0 +1,20 @@
+[
+  {
+    "model": "user",
+    "data": {
+      "firstName": "Bill",
+      "lastName": "Murray",
+      "email": "bill@example.com",
+      "password": "abcd1234"
+    }
+  },
+  {
+    "model": "user",
+    "data": {
+      "firstName": "Jane",
+      "lastName": "Curtin",
+      "email": "jane@example.com",
+      "password": "1234abcd"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+
+
+# Configuration
+.env
+
+# npm
+node_modules
+npm-debug.log
+
+# testing
+/coverage
+.nyc_output
+
+# IDEs
+.idea/

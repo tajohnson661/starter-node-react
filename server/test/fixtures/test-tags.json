@@ -1,0 +1,61 @@
+[
+  {
+    "model": "user",
+    "data": {
+      "firstName": "Jane",
+      "lastName": "Curtin",
+      "email": "jane@example.com",
+      "password": "1234abcd"
+    }
+  },
+  {
+    "model": "note",
+    "data": {
+      "text": "note 1",
+      "user": {
+        "email": "jane@example.com"
+      }
+    }
+  },
+  {
+    "model": "note",
+    "data": {
+      "text": "note 2",
+      "user": {
+        "email": "jane@example.com"
+      }
+    }
+  },
+  {
+    "model": "tag",
+    "data": {
+      "id": "645529b0-8d0f-43d4-9633-2a970d84dcc4",
+      "name": "tag 3",
+      "notes": [
+        {
+          "text": "note 1"
+        },
+        {
+          "text": "note 2"
+        }
+      ]
+    }
+  },
+  {
+    "model": "tag",
+    "data": {
+      "name": "tag 1"
+    },
+    "notes": [
+      {
+        "text": "note 1"
+      }
+    ]
+  },
+  {
+    "model": "tag",
+    "data": {
+      "name": "tag 2"
+    }
+  }
+]
